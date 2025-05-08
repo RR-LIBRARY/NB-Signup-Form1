@@ -1,9 +1,13 @@
 [project]
 name = "python-template"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A Flask application for the NB-Signup-Form"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
 requires-python = ">=3.11"
+
 dependencies = [
-    "flask>=3.1.0",
+    "Flask>=3.0.0",
+    "gunicorn>=20.1.0"
 ]
